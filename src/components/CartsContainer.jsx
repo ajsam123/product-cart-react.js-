@@ -1,11 +1,10 @@
-import React from "react";
 import { useContext } from "react";
 import { CartCtx } from "../context/cart-context";
 
 import Cart from "./cart";
 
 const CartsContainer = () => {
-  const { items, addToCart } = useContext(CartCtx);
+  const { items } = useContext(CartCtx);
 
   return items.length ? (
     <Cart />
