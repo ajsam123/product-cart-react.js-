@@ -43,7 +43,6 @@ const Cart = () => {
           </figure>
         </div>
       ))}
-
       {/* Order Total */}
       <div className="flex justify-between">
         <span className="font-semibold">Order Total:</span>
